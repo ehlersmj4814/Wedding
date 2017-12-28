@@ -9,6 +9,8 @@
 nav{
     background-color: lightgrey;
     color: black;
+    font-family: 'Spectral SC', serif;
+    font-size: 15pt;
 }
 .menu ul{
     padding: 0;
@@ -17,6 +19,7 @@ nav{
 }
 nav li{
     float: left;
+    width: 20%;
 }
 nav li a {
     display: block;
