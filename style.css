@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
+body{
+    margin: 0;
+}
 /*****Navigation*****/
 .mobile{
     display: none;
@@ -11,6 +13,7 @@ nav{
     color: black;
     font-family: 'Spectral SC', serif;
     font-size: 15pt;
+    margin-top: -20px;
 }
 .menu ul{
     padding: 0;
@@ -48,6 +51,7 @@ main,footer{
     height: 100%;
     min-height: 825px;
     text-align: center;
+    overflow: auto;
 }
 h1{
     font-family: 'Dancing Script', cursive;
@@ -88,14 +92,30 @@ p{
     display: inline-block;
     vertical-align: top;
 }
+#bride, #groom{
+    min-width: 400px;
+    padding: 30px;
+}
+#bride p, #groom p{
+    text-align: left;
+    text-indent: 2em;
+}
+
 /*****Mobile*****/
-@media(max-width: 480px) {
+@media(max-width: 720px) {
     .mobile{
         display: block;
         position: relative;
         top: 0;
         right: 0;
         font-size: 20pt;
+    }
+    nav{
+        margin-top: 0;
+    }
+    nav li{
+        float: none;
+        width: auto;
     }
     .mobile:hover .menu{
         display: inline-block;
@@ -105,5 +125,11 @@ p{
     }
     input, select{
         display: block;
+    }
+    
+}
+@media(max-width: 1050px) {
+    .center-left, .center-right{
+        float: none;
     }
 }
