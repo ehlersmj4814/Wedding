@@ -51,7 +51,6 @@ main,footer{
     height: 100%;
     min-height: 825px;
     text-align: center;
-    overflow: auto;
 }
 h1{
     font-family: 'Dancing Script', cursive;
