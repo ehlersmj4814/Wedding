@@ -76,8 +76,15 @@ p{
     font-family: serif;
     font-size: 14pt;
 }
+form{
+    font-family: 'Spectral SC', serif;
+    font-size: 16pt;
+}
 .center{
-    
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .center-left{
     width: 50%;
@@ -99,7 +106,19 @@ p{
     text-align: left;
     text-indent: 2em;
 }
-
+#rsvp{
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    top: 265px;
+    z-index: 1;
+}
+#envelope{
+    width: 600px;
+}
 /*****Mobile*****/
 @media(max-width: 720px) {
     .mobile{
