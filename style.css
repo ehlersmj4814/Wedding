@@ -110,15 +110,40 @@ form{
     background-color: white;
     width: 350px;
     height: 400px;
-    border-style: solid;
-    border-color: black;
-    border-width: 10px;
+    border: 10px solid black;
     top: 265px;
     z-index: 1;
 }
 #envelope{
     width: 600px;
 }
+.registry{
+    display: inline-block;
+    margin: 20px;
+    height: 256px;
+    width: 256px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px grey;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+.registry:hover {
+    box-shadow: 1px 1px 1px black;
+    top: 5px;
+    left: 5px;
+}
+#amazon{
+    background-image: url(images/amazon.png);
+}
+#bbb{
+    background-image: url(images/bbb.png);
+}
+#wayfair{
+    background-image: url(images/wayfair.png);
+}
+
+
 /*****Mobile*****/
 @media(max-width: 720px) {
     .mobile{
