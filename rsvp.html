@@ -6,6 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
         <link rel="shortcut icon" href="images/favicon.png">
+        <script>
+            function formValidate() {
+				var names = document.rsvpForm.names.value.trim();
+				if (names == "") {
+					alert("Please enter names of all persons in your party");
+					document.rsvpForm.names.focus();
+					return false;
+				} else {
+                    setTimeout(function(){return true;}, 10000);
+                }
+			}
+        </script>
     </head>
     <body>
         <nav>
@@ -34,14 +46,14 @@
             <h1>Matt &amp; Marie</h1>
             <h2>WE'RE GETTING MARRIED - 6.1.2019</h2>
             <div class="center" id="rsvp">
-            <form action="completed.html" method="POST">
+            <form id="rsvpForm" name ="rsvpForm" action="completed.html" method="POST" onsubmit="return formValidate();">
                 Name(s): *List all persons<br>
-                <input type="text" label="Names"><br>
+                <input type="text" label="Names" id="names" name="names"><br>
                 Song Request:<br>
-                <input type="text" label="Song Choice"><br>
+                <input type="text" label="Song Choice"  id="songChoice" name="songChoice"><br>
                 Additional Comments or Questions:<br>
-                <input type="text" label="Comments/Questions"><br>
-                <button type="submit" label="RSVP!">RSVP!</button>
+                <input type="text" label="Comments/Questions" id="commentsQuestions" name="commentsQuestions"><br>
+                <button type="submit" label="RSVP!" id="submit" name="submit">RSVP!</button>
             </form>
             </div>
             <div class="center" id="envelope"><img src="images/envelope.jpg" id="envelope"></div>
