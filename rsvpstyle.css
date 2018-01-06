@@ -1,27 +1,14 @@
-body, div, h1,h2, form, fieldset, input, textarea, footer,p{
+form, input, textarea{
 	margin: 0;
     padding: 0;
     border: 0;
-    outline: none;
-}
-body{
-    background: #ccc url('images/bg_out.png');
-    font-family: 'YanoneKaffeesatzRegular';
-}
-p{
-    text-shadow:0 1px 0 #fff;
-    font-size:24px;
+    font-family: 'Spectral SC', serif;
+    font-size: 16pt;
 }
 #wrap{
     width:530px;
     margin:20px auto 0;
     height:1000px;
-}
-h1{
-    margin-bottom:20px;
-    text-align:center;
-    font-size:48px;
-    text-shadow:0 1px 0 #ede8d9;
 }
 #form_wrap{
     overflow:hidden;
@@ -31,6 +18,7 @@ h1{
     -webkit-transition: all 1s ease-in-out .3s;
     -moz-transition: all 1s ease-in-out .3s;
     -o-transition: all 1s ease-in-out .3s;
+    -ms-transition: all 1s ease-in-out .3s;
     transition: all 1s ease-in-out .3s;
 }
 #form_wrap:before{
@@ -75,6 +63,7 @@ form{
     -webkit-transition: all 1s ease-in-out .3s;
     -moz-transition: all 1s ease-in-out .3s;
     -o-transition: all 1s ease-in-out .3s;
+    -ms-transition: all 1s ease-in-out .3s;
     transition: all 1s ease-in-out .3s;
 }
 #form_wrap:hover form{
@@ -111,7 +100,7 @@ textarea:focus, input[type=text]:focus{
     background:rgba(255,255,255,.35);
 }
 #form_wrap input[type=submit]{
-    position:relative;font-family: 'YanoneKaffeesatzRegular'; 
+    position:relative;
     font-size:24px;
     color: #7c7873;
     text-shadow:0 1px 0 #fff;
@@ -126,6 +115,7 @@ textarea:focus, input[type=text]:focus{
     -webkit-transition: opacity .6s ease-in-out 0s;
     -moz-transition: opacity .6s ease-in-out 0s;
     -o-transition: opacity .6s ease-in-out 0s;
+    -ms-transition: opacity .6s ease-in-out 0s;
     transition: opacity .6s ease-in-out 0s;
 }
 #form_wrap:hover input[type=submit]{
@@ -134,6 +124,7 @@ textarea:focus, input[type=text]:focus{
     -webkit-transition: opacity .5s ease-in-out 1.3s;
     -moz-transition: opacity .5s ease-in-out 1.3s;
     -o-transition: opacity .5s ease-in-out 1.3s;
+    -ms-transition: opacity .5s ease-in-out 1.3s;
     transition: opacity .5s ease-in-out 1.3s;
 }
 #form_wrap:hover input:hover[type=submit]{

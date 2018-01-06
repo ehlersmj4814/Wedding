@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 body{
     margin: 0;
@@ -17,7 +19,9 @@ nav{
     font-family: 'Spectral SC', serif;
     font-size: 15pt;
     margin-top: -20px;
-    border-radius: 0 0 20px 20px 
+    border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    -webkit-border-radius: 0 0 20px 20px;
 }
 .menu ul{
     padding: 0;
@@ -37,6 +41,8 @@ nav li a {
 }
 nav li:hover {
     box-shadow: inset 0 -5px 2px -2px  black;
+    -webkit-box-shadow: inset 0 -5px 2px -2px  black;
+    -moz-box-shadow: inset 0 -5px 2px -2px  black;
 }
 #banner {
     height: 256px;
@@ -48,6 +54,10 @@ nav li:hover {
 main, footer{
     left: 50%;
     transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
     color: black;
     width: 80%;
     padding-top: 20px;
@@ -82,15 +92,15 @@ p{
     font-family: serif;
     font-size: 14pt;
 }
-form{
-    font-family: 'Spectral SC', serif;
-    font-size: 16pt;
-}
 .center{
     text-align: center;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
 }
 .center-left{
     width: 50%;
@@ -118,13 +128,19 @@ form{
     height: 256px;
     width: 256px;
     border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
     box-shadow: 5px 5px 5px grey;
+    -webkit-box-shadow: 5px 5px 5px grey;
+    -moz-box-shadow: 5px 5px 5px grey;
     position: relative;
     background-repeat: no-repeat;
     background-size: 100%
 }
 .registry:hover {
     box-shadow: 1px 1px 1px black;
+    -webkit-box-shadow: 1px 1px 1px black;
+    -moz-box-shadow: 1px 1px 1px black;
     top: 5px;
     left: 5px;
 }

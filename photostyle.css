@@ -13,6 +13,8 @@ a.lightbox img{
     height: 256px;
     border: 3px solid white;
     box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0,0,0,.3);
     margin: 94px 20px 20px 20px;
 }
 
@@ -27,6 +29,7 @@ a.lightbox img{
     -webkit-transition: opacity .5s ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
     -o-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
     transition: opacity .5s ease-in-out;
     overflow: hidden;
 }
@@ -43,10 +46,15 @@ a.lightbox img{
     max-width: 0%;
     border: 3px solid white;
     box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0,0,0,.3);
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
 }
 
@@ -57,6 +65,8 @@ a.lightbox-close{
     width:50px;
     height:50px;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     background: white;
     color: black;
     text-decoration: none;
@@ -66,6 +76,7 @@ a.lightbox-close{
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
 }
 
@@ -83,6 +94,7 @@ a.lightbox-close:before{
     -webkit-transform:rotate(45deg);
     -moz-transform:rotate(45deg);
     -o-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
     transform:rotate(45deg);
 }
 
@@ -100,6 +112,7 @@ a.lightbox-close:after{
     -webkit-transform:rotate(-45deg);
     -moz-transform:rotate(-45deg);
     -o-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
     transform:rotate(-45deg);
 }
 
