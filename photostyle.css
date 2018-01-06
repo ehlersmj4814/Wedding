@@ -8,7 +8,6 @@ main{
 /*****Lightbox*****/
 
 /* Styles the thumbnail */
-
 a.lightbox img{
     height: 256px;
     border: 3px solid white;
@@ -19,7 +18,6 @@ a.lightbox img{
 }
 
 /* Styles the lightbox, removes it from sight and adds the fade-in transition */
-
 .lightbox-target{
     position: fixed;
     top: -100%;
@@ -35,7 +33,6 @@ a.lightbox img{
 }
 
 /* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
-
 .lightbox-target img{
     margin: auto;
     position: absolute;
@@ -59,7 +56,6 @@ a.lightbox img{
 }
 
 /* Styles the close link, adds the slide down transition */
-
 a.lightbox-close{
     display: block;
     width:50px;
@@ -81,7 +77,6 @@ a.lightbox-close{
 }
 
 /* Provides part of the "X" to eliminate an image from the close link */
-
 a.lightbox-close:before{
     content: "";
     display: block;
@@ -99,7 +94,6 @@ a.lightbox-close:before{
 }
 
 /* Provides part of the "X" to eliminate an image from the close link */
-
 a.lightbox-close:after{
     content: "";
     display: block;
@@ -117,7 +111,6 @@ a.lightbox-close:after{
 }
 
 /* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
-
 .lightbox-target:target{
     opacity: 1;
     top: 0;
@@ -125,12 +118,10 @@ a.lightbox-close:after{
     left: 0;
     right: 0;
 }
-
 .lightbox-target:target img{
     max-height: 100%;
     max-width: 100%;
 }
-
 .lightbox-target:target a.lightbox-close {
     top: 0px;
 }
