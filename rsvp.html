@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Matt and Marie</title>
+        <title>Matt and Marie | RSVP</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="rsvpstyle.css" rel="stylesheet" type="text/css">
         <link rel="shortcut icon" href="images/favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Spectral+SC" rel="stylesheet">
         <script>
@@ -15,7 +16,7 @@
 					document.rsvpForm.names.focus();
 					return false;
 				} else {
-                    setTimeout(function(){return true;}, 10000);
+                    return true;
                 }
 			}
         </script>
@@ -47,7 +48,7 @@
             <h1>Matt &amp; Marie</h1>
             <h2>WE'RE GETTING MARRIED - 6.1.2019</h2>
             <div class="center" id="rsvp">
-            <form id="rsvpForm" name ="rsvpForm" action="completed.html" method="POST" onsubmit="return formValidate();">
+            <form id="rsvpForm" name ="rsvpForm" action="https://formspree.io/mattehlers96@gmail.com" method="POST" onsubmit="return formValidate();">
                 <label for="names">Name(s): *List all persons</label><br>
                 <textarea name="names" id="names" rows="5"></textarea><br>
                 <label for="songChoice">Song Request:</label><br>
@@ -58,6 +59,21 @@
             </form>
             </div>
             <div class="center" id="envelope"><img src="images/envelope.jpg" id="envelope"></div>
+            
+            <div id="wrap">
+                <h1>Send a message</h1>
+                <div id='form_wrap'>
+                    <form action="https://formspree.io/mattehlers96@gmail.com" method="POST" onsubmit="return formValidate();">
+                        <label for="names">Name(s): *List all persons </label>
+                        <textarea  name="names" id="names" rows="5"></textarea>	
+                        <label for="songChoice">Song Request: </label>
+                        <input type="text" name="songChoice" id="songChoice">
+                        <label for="commentsQuestions">Additional Comments or Questions: </label>
+                        <input type="text" name="commentsQuestions" id="commentsQuestions">
+                        <input type="submit" name ="submit" value="RSVP!">
+                    </form>
+                </div>
+            </div>
         </main>
         <footer>
             <div class="center">
