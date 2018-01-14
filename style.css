@@ -22,7 +22,7 @@ nav{
     background-color: white;
     color: black;
     font-family: 'Pinyon Script', cursive;
-    font-size: 24pt;
+    font-size: 20pt;
     border-radius: 0 0 20px 20px;
     -moz-border-radius: 0 0 20px 20px;
     -webkit-border-radius: 0 0 20px 20px;
@@ -31,17 +31,21 @@ nav{
     padding: 0;
     list-style: none;
     overflow: hidden;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 767.26px;
+    
 }
 nav li{
     float: left;
-    width: 20%;
-    padding-left: 4%;
-    padding-right: 4%;
+    width: auto;
+    padding-left: 1.8%;
+    padding-right: 1.8%;
 }
 nav li a {
     display: block;
     text-align: center;
-    padding: 16px;
     color: black;
     text-decoration: none;
 }
