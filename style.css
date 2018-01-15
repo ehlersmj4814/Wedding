@@ -84,6 +84,7 @@ main{
 h1{
     font-family: 'Pinyon Script', cursive;
     font-size: 65pt;
+    font-weight: 700;
 }
 h2{
     font-family: 'Spectral SC', serif;
