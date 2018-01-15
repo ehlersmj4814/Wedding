@@ -19,7 +19,6 @@ form, input, textarea{
     -webkit-transition: all 1s ease-in-out .3s;
     -moz-transition: all 1s ease-in-out .3s;
     -o-transition: all 1s ease-in-out .3s;
-    -ms-transition: all 1s ease-in-out .3s;
     transition: all 1s ease-in-out .3s;
 }
 #form_wrap:before{
@@ -64,7 +63,6 @@ form{
     -webkit-transition: all 1s ease-in-out .3s;
     -moz-transition: all 1s ease-in-out .3s;
     -o-transition: all 1s ease-in-out .3s;
-    -ms-transition: all 1s ease-in-out .3s;
     transition: all 1s ease-in-out .3s;
 }
 #form_wrap:hover form{
@@ -116,7 +114,6 @@ textarea:focus, input[type=text]:focus{
     -webkit-transition: opacity .6s ease-in-out 0s;
     -moz-transition: opacity .6s ease-in-out 0s;
     -o-transition: opacity .6s ease-in-out 0s;
-    -ms-transition: opacity .6s ease-in-out 0s;
     transition: opacity .6s ease-in-out 0s;
 }
 #form_wrap:hover input[type=submit]{
@@ -125,7 +122,6 @@ textarea:focus, input[type=text]:focus{
     -webkit-transition: opacity .5s ease-in-out 1.3s;
     -moz-transition: opacity .5s ease-in-out 1.3s;
     -o-transition: opacity .5s ease-in-out 1.3s;
-    -ms-transition: opacity .5s ease-in-out 1.3s;
     transition: opacity .5s ease-in-out 1.3s;
 }
 #form_wrap:hover input:hover[type=submit]{
