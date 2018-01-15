@@ -5,21 +5,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
-        <link href="rsvpstyle.css" rel="stylesheet" type="text/css">
         <link rel="shortcut icon" href="images/favicon.ico">
         <link href="https://fonts.googleapis.com/css?family=Pinyon+Script|Spectral+SC" rel="stylesheet">
-        <script>
-            function formValidate() {
-				var names = document.rsvpForm.names.value.trim();
-				if (names == "") {
-					alert("Please enter names of all persons in your party");
-					document.rsvpForm.names.focus();
-					return false;
-				} else {
-                    return true;
-                }
-			}
-        </script>
     </head>
     <body>
         <header>
@@ -51,20 +38,7 @@
             </div>
         </nav>
         <main> 
-            <div id="wrap">
-                <h5>Send a message</h5>
-                <div id='form_wrap'>
-                    <form action="https://formspree.io/mattehlers96@gmail.com" method="POST" onsubmit="return formValidate();">
-                        <label for="names">Name(s): *List all persons </label>
-                        <textarea  name="names" id="names" rows="5"></textarea>	
-                        <label for="songChoice">Song Request: </label>
-                        <input type="text" name="songChoice" id="songChoice">
-                        <label for="commentsQuestions">Additional Comments or Questions: </label>
-                        <input type="text" name="commentsQuestions" id="commentsQuestions">
-                        <input type="submit" name ="submit" value="RSVP!">
-                    </form>
-                </div>
-            </div>
+            <h1>This page is closed for now, check back when you receive the invitations!</h1>
         </main>
         <footer>
             <div class="center">

@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Matt and Marie | Information</title>
+        <title>Matt and Marie | RSVP</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="rsvpstyle.css" rel="stylesheet" type="text/css">
         <link rel="shortcut icon" href="images/favicon.ico">
         <link href="https://fonts.googleapis.com/css?family=Pinyon+Script|Spectral+SC" rel="stylesheet">
+        <script>
+            function formValidate() {
+				var names = document.rsvpForm.names.value.trim();
+				if (names == "") {
+					alert("Please enter names of all persons in your party");
+					document.rsvpForm.names.focus();
+					return false;
+				} else {
+                    return true;
+                }
+			}
+        </script>
     </head>
     <body>
         <header>
@@ -19,8 +32,8 @@
                     <ul>
                         <li><a href="index.html">Our Story</a></li>
                         <li><a href="photos.html">Photos</a></li>
-                        <li><a href="rsvp.html">RSVP</a></li>
-                        <li><a href="information.html" class="current">Information</a></li>
+                        <li><a href="rsvp.html" class="current">RSVP</a></li>
+                        <li><a href="information.html">Information</a></li>
                         <li><a href="weddingParty.html">Wedding Party</a></li>
                         <li><a href="registry.html">Registry</a></li>
                     </ul>
@@ -30,32 +43,27 @@
                 <ul>
                     <li><a href="index.html">Our Story</a></li>
                     <li><a href="photos.html">Photos</a></li>
-                    <li><a href="rsvp.html">RSVP</a></li>
-                    <li><a href="information.html" class="current">Information</a></li>
+                    <li><a href="rsvp.html" class="current">RSVP</a></li>
+                    <li><a href="information.html">Information</a></li>
                     <li><a href="weddingParty.html">Wedding Party</a></li>
                     <li><a href="registry.html">Registry</a></li>
                 </ul>
             </div>
         </nav>
-        <main>
-            <div class="center" id="banner"><img src="http://via.placeholder.com/750x256" alt="Matt and Marie - Engagement"></div>
-            <h5>Events</h5>
-            <div class="center-left">
-                <h2>Ceremony</h2>
-                <blockquote>
-                    3:00 PM, June 8, 2017 <br>
-                    Sacred Heart of Jesus <br>
-                    418 N. Dewey Street, Eau Claire, WI 54703
-                </blockquote>
-                <h2>Reception</h2>
-                <blockquote>
-                    6:00 PM, June 8, 2017 <br>
-                    Sleep Inn &amp; Suites Conference Center <br>
-                    5872 33rd Ave, Eau Claire, WI 54703
-                </blockquote>
-            </div>
-            <div class="center-right">
-                <iframe src="https://www.google.com/maps/d/embed?mid=1x-XGXp4qWLxdsnuEUZ0x4tRo-yl-1G5d" width="640" height="480"></iframe>
+        <main> 
+            <div id="wrap">
+                <h5>Send a message</h5>
+                <div id='form_wrap'>
+                    <form action="https://formspree.io/mattehlers96@gmail.com" method="POST" onsubmit="return formValidate();">
+                        <label for="names">Name(s): *List all persons </label>
+                        <textarea  name="names" id="names" rows="5"></textarea>	
+                        <label for="songChoice">Song Request: </label>
+                        <input type="text" name="songChoice" id="songChoice">
+                        <label for="commentsQuestions">Additional Comments or Questions: </label>
+                        <input type="text" name="commentsQuestions" id="commentsQuestions">
+                        <input type="submit" name ="submit" value="RSVP!">
+                    </form>
+                </div>
             </div>
         </main>
         <footer>
