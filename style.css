@@ -183,11 +183,8 @@ hr{
 #partyRight{
     text-align: left;
 }
-#ceremony, #reception{
+.infoimg{
     float: left;
-}
-#reception{
-    list-style-image: url(images/reception2.png);
 }
 
 /*****Footer*****/
