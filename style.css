@@ -6,7 +6,12 @@
 body{
     margin: 0;
 }
-
+h1,h5,nav{
+    font-family: 'Pinyon Script', cursive;
+}
+h2,h3,h4,{
+    font-family: 'Spectral SC', serif;
+}
 
 
 /*****Navigation*****/
@@ -21,7 +26,6 @@ nav{
     margin-top: 30px;
     background-color: white;
     color: black;
-    font-family: 'Pinyon Script', cursive;
     font-size: 20pt;
     border-radius: 0 0 20px 20px;
     -moz-border-radius: 0 0 20px 20px;
@@ -79,27 +83,21 @@ main, footer{
 }
 main{
     position: relative;
-    min-height: 1025px;
 }
 h1{
-    font-family: 'Pinyon Script', cursive;
     font-size: 65pt;
     font-weight: 700;
 }
 h2{
-    font-family: 'Spectral SC', serif;
     font-size: 14pt;
 }
 h3{
-    font-family: 'Spectral SC', serif;
     font-size: 18pt;
 }
 h4{
-    font-family: 'Spectral SC', serif;
     font-size: 16pt;
 }
 h5{
-    font-family: 'Pinyon Script', cursive;
     font-size: 42pt;
     margin-top: 30px;
     margin-bottom: 15px;
@@ -189,10 +187,11 @@ hr{
 
 /*****Footer*****/
 footer{
-    position: absolute;
+    position: relative;
+    bottom: 0;
     background-image: url(images/Footer.png);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    background-position: center;
 }
 
 
