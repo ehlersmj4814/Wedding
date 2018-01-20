@@ -69,6 +69,7 @@ header{
     text-align: center;
 }
 main, footer{
+    position: relative;
     left: 50%;
     transform: translate(-50%, 0);
     -webkit-transform: translate(-50%, 0);
@@ -78,11 +79,8 @@ main, footer{
     color: black;
     width: 80%;
     padding-top: 20px;
-    height: auto;
     text-align: center;
-}
-main{
-    position: relative;
+    overflow: hidden;
 }
 h1{
     font-size: 65pt;
@@ -187,13 +185,15 @@ hr{
 
 /*****Footer*****/
 footer{
-    position: relative;
-    bottom: 0;
     background-image: url(images/Footer.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
 }
-
+footer h3{
+    padding-bottom: 95px;
+}
+footer .center-right, footer .center-left{
+}
 
 /*****Mobile*****/
 @media(max-width: 720px) {
