@@ -185,14 +185,19 @@ hr{
 
 /*****Footer*****/
 footer{
-    background-image: url(images/Footer.png);
-    background-repeat: no-repeat;
-    background-position: center center;
+    max-width: 1030px;
 }
 footer h3{
-    padding-bottom: 95px;
+    margin-bottom: 0;
 }
-footer .center-right, footer .center-left{
+footer .center-left, footer .center-right{
+    position: relative;
+    bottom: 100px;
+}
+#footimg img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
 }
 
 /*****Mobile*****/
@@ -225,5 +230,8 @@ footer .center-right, footer .center-left{
 @media(max-width: 1050px) {
     .center-left, .center-right{
         float: none;
+    }
+    footer .center-left, footer .center-right{
+        bottom: 0;
     }
 }
