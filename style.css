@@ -5,6 +5,9 @@
 }
 body{
     margin: 0;
+    background-size: 100%;
+    background-image: url(images/background.jpg);
+    text-align: center;
 }
 h1,h5,nav{
     font-family: 'Pinyon Script', cursive;
@@ -30,15 +33,16 @@ nav{
     border-radius: 0 0 20px 20px;
     -moz-border-radius: 0 0 20px 20px;
     -webkit-border-radius: 0 0 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 720.8px;
 }
 .menu ul{
     padding: 0;
     list-style: none;
     overflow: hidden;
     position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 767.26px;
+    
     
 }
 nav li{
@@ -81,6 +85,11 @@ main, footer{
     padding-top: 20px;
     text-align: center;
     overflow: hidden;
+}
+hr{
+    border-color: black;
+    margin-top: 70px;
+    margin-bottom: 30px;
 }
 h1{
     font-size: 65pt;
@@ -147,7 +156,8 @@ p{
     -moz-box-shadow: 5px 5px 5px grey;
     position: relative;
     background-repeat: no-repeat;
-    background-size: 100%
+    background-size: 100%;
+    background-color: #fff;
 }
 .registry:hover {
     box-shadow: 1px 1px 1px black;
@@ -164,11 +174,6 @@ p{
 }
 #wayfair{
     background-image: url(images/wayfair.png);
-}
-hr{
-    border-color: black;
-    margin-top: 70px;
-    margin-bottom: 100px;
 }
 #partyLeft, #partyRight{
     height: 256px;
