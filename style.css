@@ -187,6 +187,11 @@ p{
 .infoimg{
     float: left;
 }
+.infoimg img{
+    height: 128px;
+    width: 128px;
+    border-radius: 40px;
+}
 
 /*****Footer*****/
 footer{
