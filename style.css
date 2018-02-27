@@ -23,16 +23,16 @@ h2,h3,h4,{
 }
 nav{
     z-index: 99;
-    opacity: .95;
+    opacity: .92;
     position: sticky;
     top: 0;
     margin-top: 30px;
     background-color: white;
     color: black;
     font-size: 20pt;
-    border-radius: 0 0 20px 20px;
-    -moz-border-radius: 0 0 20px 20px;
-    -webkit-border-radius: 0 0 20px 20px;
+    border-radius: 5px 5px 20px 20px;
+    -moz-border-radius: 5px 5px 20px 20px;
+    -webkit-border-radius: 5px 5px 20px 20px;
     margin-left: auto;
     margin-right: auto;
     width: 720.8px;
