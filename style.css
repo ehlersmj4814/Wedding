@@ -221,6 +221,7 @@ footer .center-left, footer .center-right{
     }
     nav{
         margin-top: 0;
+        width: 100%;
     }
     nav li{
         float: none;
@@ -243,5 +244,8 @@ footer .center-left, footer .center-right{
     }
     footer .center-left, footer .center-right{
         bottom: 0;
+    }
+    nav{
+        width: 100%;
     }
 }
