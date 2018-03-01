@@ -25,6 +25,7 @@ nav{
     z-index: 99;
     opacity: .92;
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     margin-top: 30px;
     background-color: white;
