@@ -183,6 +183,9 @@ p{
 }
 
 /***Wedding Party***/
+#partyLeft blockquote, #partyRight blockquote{
+    margin-top: 50px;
+}
 #partyLeft, #partyRight{
     height: 256px;
 }
