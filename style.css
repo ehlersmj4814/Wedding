@@ -8,10 +8,10 @@ body{
     background-size: 100%;
     background-image: url(images/background.jpg);
     text-align: center;
-    -webkit-text-size-adjust: none;
 }
 h1,h5,nav{
     font-family: 'Pinyon Script', cursive;
+    -webkit-text-size-adjust: none;
 }
 h2,h3,h4,{
     font-family: 'Spectral SC', serif;
