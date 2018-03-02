@@ -3,6 +3,10 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
 body{
     margin: 0;
     background-size: 100%;
@@ -11,7 +15,6 @@ body{
 }
 h1,h5,nav{
     font-family: 'Pinyon Script', cursive;
-    -webkit-text-size-adjust: none;
 }
 h2,h3,h4,{
     font-family: 'Spectral SC', serif;
