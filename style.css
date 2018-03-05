@@ -6,7 +6,6 @@
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
 }
 body{
     margin: 0;
@@ -41,7 +40,7 @@ nav{
     -webkit-border-radius: 5px 5px 20px 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 720.8px;
+    width: 728.5px;
 }
 .menu ul{
     padding: 0;
@@ -54,8 +53,8 @@ nav{
 nav li{
     float: left;
     width: auto;
-    padding-left: 1.8%;
-    padding-right: 1.8%;
+    padding-left: 13px;
+    padding-right: 13px;
 }
 nav li a {
     display: block;
