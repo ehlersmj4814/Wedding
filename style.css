@@ -9,8 +9,9 @@ html {
 }
 body{
     margin: 0;
-    background-size: 100%;
+    background-size: cover;
     background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
     text-align: center;
 }
 h1,h5,nav{
@@ -235,6 +236,10 @@ footer .center-left, footer .center-right{
 
 /*****MOBILE*****/
 @media(max-width: 720px) {
+    body{
+        background-size: 100%;
+        background-attachment: fixed;
+    }
     .mobile{
         display: block;
         position: relative;
