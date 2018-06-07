@@ -10,6 +10,9 @@ html {
 body{
     margin: 0;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     text-align: center;
@@ -238,6 +241,9 @@ footer .center-left, footer .center-right{
 @media(max-width: 720px) {
     body{
         background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-attachment: fixed;
     }
     .mobile{
