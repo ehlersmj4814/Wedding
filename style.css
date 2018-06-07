@@ -237,7 +237,7 @@ footer .center-left, footer .center-right{
 /*****MOBILE*****/
 @media(max-width: 720px) {
     body{
-        background-size: 100%;
+        background-size: cover;
         background-attachment: fixed;
     }
     .mobile{
