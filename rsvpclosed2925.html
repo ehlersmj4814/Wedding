@@ -57,8 +57,10 @@
                     <form action="https://formspree.io/mattehlers96@gmail.com" method="POST" onsubmit="return formValidate();">
                         <label for="names">Name(s): *List all persons</label>
                         <textarea  name="names" id="names" rows="5"></textarea>
-                        <input type="radio" name="attending" value="yes">Accepting gratefully<br>
-                        <input type="radio" name="attending" value="no">Declining regretfully<br>
+                        <input type="radio" name="attending" value="yes">
+                        <label for="yes">Accepting gratefully</label><br>
+                        <input type="radio" name="attending" value="no">
+                        <label for="no">Declining regretfully</label><br>
                         <label for="songChoice">Song Request:</label>
                         <input type="text" name="songChoice" id="songChoice">
                         <label for="dietaryRestrictions">Please list any dietary restrictions:</label>
