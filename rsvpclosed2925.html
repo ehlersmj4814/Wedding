@@ -8,18 +8,6 @@
         <link href="rsvpstyle.css" rel="stylesheet" type="text/css">
         <link rel="shortcut icon" href="images/favicon.ico">
         <link href="https://fonts.googleapis.com/css?family=Pinyon+Script|Spectral+SC" rel="stylesheet">
-        <script>
-            function formValidate() {
-				var names = document.rsvpForm.names.value.trim();
-				if (names == "") {
-					alert("Please enter names of all persons in your party");
-					document.rsvpForm.names.focus();
-					return false;
-				} else {
-                    return true;
-                }
-			}
-        </script>
     </head>
     <body>
         <header>
@@ -54,10 +42,10 @@
             <div id="wrap">
                 <h5>Send a message</h5>
                 <div id='form_wrap'>
-                    <form action="https://formspree.io/mattehlers96@gmail.com" method="POST" onsubmit="return formValidate();">
+                    <form action="https://formspree.io/mattehlers96@gmail.com" method="POST">
                         <label for="names">Name(s): *List all persons</label>
-                        <textarea  name="names" id="names" rows="5"></textarea>
-                        <input type="radio" name="attending" value="yes">
+                        <textarea  name="names" id="names" rows="5" required></textarea>
+                        <input type="radio" name="attending" value="yes" required>
                         <label for="yes">Accepting gratefully</label><br>
                         <input type="radio" name="attending" value="no">
                         <label for="no">Declining regretfully</label><br>
