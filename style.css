@@ -24,7 +24,6 @@ h2,h3,h4,{
     font-family: 'Spectral SC', serif;
 }
 
-
 /*****NAVIGATION*****/
 .mobile{
     display: none;
@@ -75,14 +74,6 @@ nav li:hover {
     width: 60%;
     height: auto;
 }
-.icon{
-    border: none;
-    background:none;
-    font-size: 20pt;
-}
-
-
-
 
 /*****MAIN CONTENT*****/
 header{
