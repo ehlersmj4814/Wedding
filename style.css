@@ -243,11 +243,10 @@ footer .center-left, footer .center-right{
 /*****MOBILE*****/
 @media(max-width: 720px) {
     body{
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
         background-attachment: fixed;
+    }
+    main{
+        width: 90%;
     }
     .mobile{
         display: block;
@@ -270,10 +269,9 @@ footer .center-left, footer .center-right{
     .menu{
         display: none;
     }
-    input, select{
-        display: block;
+    main, #wrap{
+        overflow: scroll;
     }
-    
 }
 @media(max-width: 1050px) {
     .center-left, .center-right{
