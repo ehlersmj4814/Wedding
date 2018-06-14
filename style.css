@@ -243,6 +243,7 @@ footer .center-left, footer .center-right{
 /*****MOBILE*****/
 @media(max-width: 720px) {
     body{
+        background-position: initial; 
         background-attachment: fixed;
     }
     main{
