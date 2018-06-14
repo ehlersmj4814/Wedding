@@ -43,16 +43,17 @@
                 <h5>Send a message</h5>
                 <div id='form_wrap'>
                     <form action="https://formspree.io/mattehlers96@gmail.com" method="POST">
-                        <label for="names">Name(s): *List all persons</label>
-                        <textarea  name="names" id="names" rows="5" required></textarea>
+                        <label for="names">Name(s): *List all persons</label><br>
+                        <textarea  name="names" id="names" rows="5" required></textarea><br>
                         <input type="radio" name="attending" value="yes" required>
                         <label for="yes">Accepting gratefully</label><br>
                         <input type="radio" name="attending" value="no">
                         <label for="no">Declining regretfully</label><br>
-                        <label for="songChoice">Song Request:</label>
-                        <input type="text" name="songChoice" id="songChoice">
-                        <label for="dietaryRestrictions">Please list any dietary restrictions:</label>
-                        <input type="text" name="dietaryRestrictions" id="dietaryRestrictions">
+                        <label for="songChoice">Song Request:</label><br>
+                        <input type="text" name="songChoice" id="songChoice"><br>
+                        <label for="dietaryRestrictions">Please list any dietary
+                        restrictions or allergies:</label><br>
+                        <input type="text" name="dietaryRestrictions" id="dietaryRestrictions"><br>
                         <input type="submit" name ="submit" value="RSVP!">
                         <input type="hidden" name="_next" value="thankyou.html"/>
                     </form>
