@@ -242,13 +242,13 @@ footer .center-left, footer .center-right{
 
 /*****MOBILE*****/
 @media(max-width: 720px) {
-    /*body{
+    body{
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-attachment: fixed;
-    }*/
+    }
     body:before {
         content: "";
         display: block;
