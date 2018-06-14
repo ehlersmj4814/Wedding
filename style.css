@@ -75,6 +75,11 @@ nav li:hover {
     width: 60%;
     height: auto;
 }
+.icon{
+    border: none;
+    background:none;
+    font-size: 20pt;
+}
 
 
 
