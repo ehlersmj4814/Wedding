@@ -222,13 +222,12 @@ p{
     border-radius: 40px;
 }
 #menu{
+    color: #1B223B;
     margin-top:90px;
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    background:#f7f2ec url('images/menu.jpg');
-    padding: 300px 0 300px 0;
-    width: 900px;
+    background:url('images/menu.jpg') no-repeat;
+    background-size: contain;
+    padding: 240px 0 40px 0;
+    width: 800px;
 }
 
 /*****FOOTER*****/
