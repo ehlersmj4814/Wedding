@@ -228,6 +228,9 @@ p{
     height: auto;
     width: auto\9;
 }
+#buffetdiv{
+    margin-top: 40px;
+}
 
 /*****FOOTER*****/
 footer{
