@@ -197,6 +197,10 @@ p{
 #partyLeft blockquote, #partyRight blockquote{
     margin: 50px 5px 50px 5px;
 }
+#partyLeft img, #partyRight img{
+    height: 256px;
+    width: 256px;
+}
 #partyLeft, #partyRight{
     height: 256px;
 }
