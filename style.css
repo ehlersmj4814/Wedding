@@ -219,10 +219,10 @@ p{
     width: 128px;
     border-radius: 40px;
 }
-#buffet {
+#buffet{
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto\9;
 }
 
 /*****FOOTER*****/
