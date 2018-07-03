@@ -217,14 +217,20 @@ p{
 }
 .infoimg{
     float: left;
+    margin-bottom: 40px;
 }
 .infoimg img{
     height: 128px;
     width: 128px;
     border-radius: 40px;
 }
+iframe{
+    max-width: 600px;
+    height: 500px;
+    width: auto\9;
+}
 #buffet{
-    max-width: 100%;
+    max-width: 740px;
     height: auto;
     width: auto\9;
 }
