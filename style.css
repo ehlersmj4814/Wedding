@@ -226,16 +226,23 @@ p{
 }
 iframe{
     max-width: 600px;
-    height: 500px;
+    max-height: 500px;
     width: auto\9;
 }
 #buffet{
-    max-width: 740px;
+    max-width: 100%;
     height: auto;
     width: auto\9;
 }
 #buffetdiv{
     margin-top: 40px;
+}
+.hotel img{
+    max-width: 300px;
+    border-radius: 40px;
+}
+.hotel hr{
+    margin-top: 15px;
 }
 
 /*****FOOTER*****/
