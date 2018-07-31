@@ -287,7 +287,7 @@ footer .center-left, footer .center-right{
         background-size: cover;
     }
     main{
-        width: 90%;
+        width: 95%;
     }
     .mobile{
         display: block;
@@ -297,6 +297,7 @@ footer .center-left, footer .center-right{
         font-size: 20pt;
     }
     nav{
+        position: fixed;
         margin-top: 0;
         width: 100%;
     }
@@ -316,6 +317,7 @@ footer .center-left, footer .center-right{
 }
 @media(max-width: 1050px) {
     .center-left, .center-right{
+        width:95%;
         float: none;
     }
     footer .center-left, footer .center-right{
