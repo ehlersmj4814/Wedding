@@ -194,15 +194,23 @@ p{
 }
 
 /***Wedding Party***/
-#partyLeft blockquote, #partyRight blockquote{
-    margin: 50px 5px 50px 5px;
+#partyLeft p, #partyRight p{
+    margin-top: 50px;
+}
+#partyLeft p{
+    margin-right: 5px;
+    margin-left: 50px;
+}
+#partyRight p{
+    margin-left: 5px;
+    margin-right: 50px;
 }
 #partyLeft img, #partyRight img{
-    height: 256px;
     width: 256px;
+    margin-bottom: 44px;
 }
 #partyLeft, #partyRight{
-    height: 256px;
+    height: 300px;
 }
 #partyLeft{
     text-align: right;
@@ -322,5 +330,12 @@ footer .center-left, footer .center-right{
     }
     footer .center-left, footer .center-right{
         bottom: 0;
+    }
+    #partyLeft, #partyRight{
+        text-align: center;
+        max-width: 500px;
+    }
+    #partyLeft p, #partyRight p{
+        margin:10px;
     }
 }
