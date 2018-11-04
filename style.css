@@ -335,6 +335,7 @@ footer .center-left, footer .center-right{
         top: 0;
         right: 0;
         font-size: 20pt;
+        cursor: pointer;
     }
     nav{
         position: fixed;
@@ -347,6 +348,7 @@ footer .center-left, footer .center-right{
     }
     .mobile:hover .menu{
         display: inline-block;
+        cursor: pointer;
     }
     .menu{
         display: none;
