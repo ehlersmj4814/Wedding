@@ -297,6 +297,7 @@ footer .center-left, footer .center-right{
         bottom: 0;
     }
     #partyLeft, #partyRight{
+        height:auto;
         text-align: center;
         max-width: 500px;
     }
