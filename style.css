@@ -249,7 +249,7 @@ p{
     border-radius: 40px;
 }
 iframe{
-    max-width: 600px;
+    min-width: 600px;
     height: 480px;
     width: auto\9;
 }
@@ -360,5 +360,6 @@ footer .center-left, footer .center-right{
     }
     .inline iframe{
         height:400px;
+        min-width:300px;
     }
 }
