@@ -223,9 +223,10 @@ p{
 #partyLeft img, #partyRight img{
     width: 256px;
     margin-bottom: 44px;
+    margin-top: 100px;
 }
 #partyLeft, #partyRight{
-    height: 300px;
+    height: 455px;
 }
 #partyLeft{
     text-align: right;
