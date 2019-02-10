@@ -224,12 +224,13 @@ p{
     width: 256px;
     margin-bottom: 44px;
     margin-top: 100px;
+    margin: 100px 5px 44px 5px;
 }
 #partyLeft, #partyRight{
-    height: 455px;
+    height: 470px;
 }
 #partyLeft{
-    text-align: right;
+    text-align: right;   
 }
 #partyRight{
     text-align: left;
